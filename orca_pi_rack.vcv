@@ -1,0 +1,657 @@
+{
+  "version": "0.6.2c",
+  "modules": [
+    {
+      "plugin": "Core",
+      "version": "0.6.2c",
+      "model": "AudioInterface",
+      "params": [],
+      "data": {
+        "audio": {
+          "driver": 8,
+          "deviceName": "Altavoces (Conexant SmartAudio HD)",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        56,
+        0
+      ]
+    },
+    {
+      "plugin": "Core",
+      "version": "0.6.2c",
+      "model": "MIDIToCVInterface",
+      "params": [],
+      "data": {
+        "divisions": [
+          96,
+          6
+        ],
+        "midi": {
+          "driver": 4,
+          "deviceName": "loopMIDI Port 0",
+          "channel": 0
+        }
+      },
+      "pos": [
+        5,
+        0
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "version": "0.6.3",
+      "model": "Shades",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.937001407
+        },
+        {
+          "paramId": 1,
+          "value": 0.0384997465
+        },
+        {
+          "paramId": 2,
+          "value": 0.794500053
+        },
+        {
+          "paramId": 3,
+          "value": 1.0
+        },
+        {
+          "paramId": 4,
+          "value": 0.0
+        },
+        {
+          "paramId": 5,
+          "value": 1.0
+        }
+      ],
+      "pos": [
+        50,
+        0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.2",
+      "model": "VCA",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.405000865
+        },
+        {
+          "paramId": 1,
+          "value": 0.828999996
+        }
+      ],
+      "pos": [
+        29,
+        0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.2",
+      "model": "VCF",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.463001758
+        },
+        {
+          "paramId": 1,
+          "value": 0.41899997
+        },
+        {
+          "paramId": 2,
+          "value": 0.699001729
+        },
+        {
+          "paramId": 3,
+          "value": -0.0989998877
+        },
+        {
+          "paramId": 4,
+          "value": 0.554999232
+        }
+      ],
+      "pos": [
+        42,
+        0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.2",
+      "model": "ADSR",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.621500134
+        },
+        {
+          "paramId": 1,
+          "value": 0.678499639
+        },
+        {
+          "paramId": 2,
+          "value": 0.909500182
+        },
+        {
+          "paramId": 3,
+          "value": 0.67249912
+        }
+      ],
+      "pos": [
+        34,
+        0
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "version": "0.6.3",
+      "model": "Branches",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.192499265
+        },
+        {
+          "paramId": 2,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.570498645
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "modes": [
+          true,
+          false
+        ]
+      },
+      "pos": [
+        8,
+        1
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.2",
+      "model": "Delay",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.480499417
+        },
+        {
+          "paramId": 1,
+          "value": 0.627499342
+        },
+        {
+          "paramId": 2,
+          "value": 0.773000777
+        },
+        {
+          "paramId": 3,
+          "value": 0.676999927
+        }
+      ],
+      "pos": [
+        22,
+        1
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "version": "0.6.0",
+      "model": "SpringReverb",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.611000121
+        },
+        {
+          "paramId": 1,
+          "value": 0.792001307
+        },
+        {
+          "paramId": 2,
+          "value": 0.387999892
+        },
+        {
+          "paramId": 3,
+          "value": 0.686000586
+        }
+      ],
+      "pos": [
+        14,
+        1
+      ]
+    },
+    {
+      "plugin": "Core",
+      "version": "0.6.2c",
+      "model": "MIDIToCVInterface",
+      "params": [],
+      "data": {
+        "divisions": [
+          24,
+          6
+        ],
+        "midi": {
+          "driver": 4,
+          "deviceName": "loopMIDI Port 0",
+          "channel": 1
+        }
+      },
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "version": "0.6.3",
+      "model": "Braids",
+      "params": [
+        {
+          "paramId": 6,
+          "value": 0.62250036
+        },
+        {
+          "paramId": 0,
+          "value": 0.126000151
+        },
+        {
+          "paramId": 1,
+          "value": -0.142000049
+        },
+        {
+          "paramId": 2,
+          "value": 0.272999525
+        },
+        {
+          "paramId": 3,
+          "value": 0.455999672
+        },
+        {
+          "paramId": 4,
+          "value": -0.290999979
+        },
+        {
+          "paramId": 5,
+          "value": 0.450499505
+        }
+      ],
+      "data": {
+        "settings": [
+          29,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "lowCpu": false
+      },
+      "pos": [
+        13,
+        0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.2",
+      "model": "LFO",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": -5.96599865
+        },
+        {
+          "paramId": 3,
+          "value": 0.226500019
+        },
+        {
+          "paramId": 5,
+          "value": 0.833000183
+        },
+        {
+          "paramId": 4,
+          "value": 0.218999982
+        },
+        {
+          "paramId": 6,
+          "value": 0.449999928
+        }
+      ],
+      "pos": [
+        30,
+        1
+      ]
+    },
+    {
+      "plugin": "Bidoo",
+      "version": "0.6.28",
+      "model": "cuRt",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.657100677
+        },
+        {
+          "paramId": 1,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "mode": true
+      },
+      "pos": [
+        40,
+        1
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "version": "0.6.2",
+      "model": "LFO2",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 1.0
+        },
+        {
+          "paramId": 1,
+          "value": 1.0
+        },
+        {
+          "paramId": 2,
+          "value": -3.04100347
+        },
+        {
+          "paramId": 3,
+          "value": 1.90950012
+        },
+        {
+          "paramId": 4,
+          "value": 0.670999885
+        }
+      ],
+      "pos": [
+        43,
+        1
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "version": "0.6.0",
+      "model": "Rampage",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 2.0
+        },
+        {
+          "paramId": 2,
+          "value": 0.506999373
+        },
+        {
+          "paramId": 4,
+          "value": 0.0
+        },
+        {
+          "paramId": 6,
+          "value": 0.194999859
+        },
+        {
+          "paramId": 8,
+          "value": 0.239999965
+        },
+        {
+          "paramId": 10,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.0
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        },
+        {
+          "paramId": 5,
+          "value": 0.0
+        },
+        {
+          "paramId": 7,
+          "value": 0.0
+        },
+        {
+          "paramId": 9,
+          "value": 0.0
+        },
+        {
+          "paramId": 11,
+          "value": 0.0
+        },
+        {
+          "paramId": 12,
+          "value": 0.381499559
+        }
+      ],
+      "pos": [
+        66,
+        0
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "version": "0.6.3",
+      "model": "Tides",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": 5.04002905
+        },
+        {
+          "paramId": 3,
+          "value": 6.19200182
+        },
+        {
+          "paramId": 4,
+          "value": -0.20400016
+        },
+        {
+          "paramId": 5,
+          "value": -0.434999973
+        },
+        {
+          "paramId": 6,
+          "value": 0.687000155
+        }
+      ],
+      "data": {
+        "mode": 1,
+        "range": 1,
+        "sheep": false
+      },
+      "pos": [
+        84,
+        0
+      ]
+    },
+    {
+      "plugin": "Bidoo",
+      "version": "0.6.28",
+      "model": "dFUZE",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.859999895
+        },
+        {
+          "paramId": 1,
+          "value": 2.4349997
+        },
+        {
+          "paramId": 2,
+          "value": 0.198950231
+        },
+        {
+          "paramId": 4,
+          "value": 0.11150004
+        },
+        {
+          "paramId": 5,
+          "value": 2.02999997
+        },
+        {
+          "paramId": 6,
+          "value": 3.53000021
+        }
+      ],
+      "pos": [
+        49,
+        1
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "color": "#0986ad",
+      "outputModuleId": 1,
+      "outputId": 1,
+      "inputModuleId": 10,
+      "inputId": 0
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 10,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 5
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 1,
+      "outputId": 1,
+      "inputModuleId": 5,
+      "inputId": 4
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 3
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 3,
+      "outputId": 1,
+      "inputModuleId": 8,
+      "inputId": 2
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 0
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 1
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 4
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 0
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 9,
+      "outputId": 1,
+      "inputModuleId": 5,
+      "inputId": 5
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 1
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 3
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 0
+    }
+  ]
+}
